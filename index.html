@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Entenda como a tecnologia em nuvem contribui para um desenvolvimento mais sustentável.">
+    <title>Nuvem e sustentabilidade</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,41 +18,59 @@
   </head>
   <body id="inicio">
    
-    <div class="nav">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#introducao">Introdução</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#desenvolvimento">Desenvolvimento</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#conclusão">Conclusão</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#inicio">Inicio</a>
-        </li>
-      </ul>
-    </div ><!--nav-->
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a class="nav-link active" href="#introducao">Introdução</a></li>
+          <li><a class="nav-link" href="#desenvolvimento">Como funciona</a></li>
+          <li><a class="nav-link" href="#conclusao">Conclusão</a></li>
+        </ul>
+        <a class="nav-cta" href="#desenvolvimento">Explorar tema <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
 
-        <img class="card-img" src="./imgs/unnamed.png" alt="Card image" >
+    <main>
+      <section class="hero container" id="inicio">
+        <div class="hero-content">
+          <p class="eyebrow">Tecnologia com propósito</p>
+          <h1>Uma nuvem mais leve para o planeta.</h1>
+          <p class="hero-text">Como a computação em nuvem pode reduzir desperdícios, otimizar recursos e apoiar um desenvolvimento mais sustentável.</p>
+          <a class="primary-button" href="#introducao">Começar leitura <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-media">
+          <img class="card-img" src="./imgs/teste.jpg" alt="Ilustração de serviços conectados ao armazenamento em nuvem">
+        </div>
+      </section>
 
-        <div class="texto-principal" id="introducao">
-            <h2>Como a tecnonogia em nuvem ajuda no desenvlvimeto sustentável</h2>
-                <h3> Introdução: oque é?</h3>
-                    <div class="texto">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptatem beatae, ratione odio, ab repellat non illo adipisci ullam fugiat impedit veritatis corporis. Laboriosam amet ipsam doloremque aliquam iste autem!</p>
-                    </div><!--texto-->
-                    
-        </div><!--texto-principal-->
+      <section class="content-section intro-section" id="introducao">
+        <div class="section-grid container">
+          <div class="section-heading">
+            <p class="eyebrow">01 / Introdução</p>
+            <h2>O que existe por trás da nuvem?</h2>
+          </div>
+          <div class="section-copy">
+            <p>A computação em nuvem reúne servidores, dados e serviços em uma infraestrutura compartilhada e acessível pela internet. Em vez de cada organização manter equipamentos próprios, os recursos são usados conforme a necessidade.</p>
+            <p>Essa lógica ajuda a evitar ociosidade, prolonga a vida útil dos equipamentos e torna o uso da tecnologia mais eficiente.</p>
+          </div>
+        </div>
+      </section>
 
-        <div class="texto-desenvolvimento" id="desenvolvimento">
-                <h3 class="desenvolvimeto"> Desenvolvimento: como funciona?</h3>
-                    <div class="texto">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptatem beatae, ratione odio, ab repellat non illo adipisci ullam fugiat impedit veritatis corporis. Laboriosam amet ipsam doloremque aliquam iste autem!</p>
-                    </div><!--texto-->
+      <section class="content-section development-section" id="desenvolvimento">
+        <div class="container">
+          <div class="section-heading development-heading">
+            <p class="eyebrow">02 / Desenvolvimento</p>
+            <h2>Eficiência que se multiplica.</h2>
+            <p>Serviços sob demanda ajustam a infraestrutura ao uso real, reduzindo energia, espaço físico e custos de manutenção.</p>
+          </div>
 
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="development-grid">
+            <div class="benefits-list">
+              <article class="benefit" tabindex="0"><span>01</span><div><h3>Menos ociosidade</h3><p>Capacidade compartilhada evita servidores parados e equipamentos subutilizados.</p></div></article>
+              <article class="benefit" tabindex="0"><span>02</span><div><h3>Escala consciente</h3><p>Recursos crescem ou diminuem de acordo com a demanda de cada momento.</p></div></article>
+              <article class="benefit" tabindex="0"><span>03</span><div><h3>Gestão mais simples</h3><p>Monitoramento centralizado facilita decisões e reduz deslocamentos e desperdícios.</p></div></article>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" aria-label="Imagens sobre computação em nuvem">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -59,13 +78,13 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                    <img class="d-block w-100" src="./imgs/teste2.webp" alt="First slide">
+                                    <img class="d-block w-100" src="./imgs/teste2.webp" alt="Dispositivos conectados a uma nuvem digital">
                                     </div>
                                     <div class="carousel-item">
-                                    <img class="d-block w-100" src="./imgs/teste2.webp" alt="Second slide">
+                                    <img class="d-block w-100" src="./imgs/teste.jpg" alt="Serviços de armazenamento conectados à nuvem">
                                     </div>
                                     <div class="carousel-item">
-                                    <img class="d-block w-100" src="./imgs/teste2.webp" alt="Third slide">
+                                    <img class="d-block w-100" src="./imgs/teste2.webp" alt="Infraestrutura digital compartilhada em nuvem">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -76,17 +95,18 @@
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>
-                            </div><!--carrosel--> 
+                            </div>
+          </div>
+        </div>
+      </section>
 
-        </div><!--texto-desenvolvimento-->  
-        
-        <div class="texto-conclusão" id="conclusão">
-                <h3 class="conclusão"> Conclusão</h3>
-                    <div class="texto">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptatem beatae, ratione odio, ab repellat non illo adipisci ullam fugiat impedit veritatis corporis. Laboriosam amet ipsam doloremque aliquam iste autem!</p>
-                    </div><!--texto-->
-
-        </div><!--texto-conclusão--> 
+      <section class="content-section conclusion-section" id="conclusao">
+        <div class="conclusion-box container">
+          <div><p class="eyebrow">03 / Conclusão</p><h2>O futuro pede escolhas eficientes.</h2></div>
+          <p>Quando usada com planejamento, a nuvem transforma infraestrutura em um recurso compartilhado, flexível e mais responsável. A tecnologia não resolve tudo sozinha, mas cria condições melhores para fazer mais com menos.</p>
+        </div>
+      </section>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
